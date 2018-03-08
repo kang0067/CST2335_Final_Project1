@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wn.cst2335_final_project.MainMenu">
+
+
+    <Button
+        android:id="@+id/startQuizApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="147dp"
+        android:text="Multiple Choice Quiz Creator" />
+
+    <Button
+        android:id="@+id/startPatientForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/startQuizApp"
+        android:layout_below="@+id/startQuizApp"
+        android:layout_marginTop="10dp"
+        android:text="Patient Intake Form" />
+
+    <Button
+        android:id="@+id/startMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/startPatientForm"
+        android:layout_below="@+id/startPatientForm"
+        android:layout_marginTop="10dp"
+        android:text="Movie Information" />
+
+    <Button
+        android:id="@+id/startOCTranspo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/startMovie"
+        android:layout_below="@+id/startMovie"
+        android:layout_marginTop="10dp"
+        android:text="OCTranspo Bus Route" />
+
+
+
+</RelativeLayout>
