@@ -1,23 +1,22 @@
 <resources>
     <string name="app_name">CST2335_Final_Project</string>
-
-    <string name="enter_stop">Enter a stop number or name:</string>
-    <string name="choose_from_map">Map</string>
-    <string name="recent_queries">Recent queries:</string>
-    <string name="choose_route">Choose a route:</string>
+    <string name="enter_stop">添加信息:</string>
+    <string name="choose_from_map">地图</string>
+    <string name="recent_queries">最近的:</string>
+    <string name="choose_route">选择一个:</string>
     <string name="loading">Loading. Please wait&#8230;</string>
     <string name="newMessage"> FBI Warning:Are you sure you want to see the information?!</string>
 
-    <string name="direction">Direction:</string>
-    <string name="destination">Destination:</string>
-    <string name="start_time">Start time:</string>
+    <string name="direction">方向:</string>
+    <string name="destination">目的地:</string>
+    <string name="start_time">开始时间:</string>
     <string name="estimated_arrival">Estimated arrival:</string>
     <string name="scheduled_arrival">Scheduled arrival:</string>
     <string name="estimated">estimated</string>
     <string name="scheduled">scheduled</string>
-    <string name="bus_speed">Speed:</string>
-    <string name="kph">km/h</string>
-    <string name="bus_type">Bus type:</string>
+    <string name="bus_speed">速度:</string>
+    <string name="kph">千米/时</string>
+    <string name="bus_type">巴士类型:</string>
     <string name="last_trip">This is the last trip.</string>
     <string name="busStopName">Bus Stop Name</string>
     <string name="busStopNumber">Bus Stop Number</string>
@@ -31,11 +30,10 @@
     <string name="busRouteAdjustedTime">Adjusted Schedule Time</string>
 
     <string name="blank">PLEASE SELECT ROUTE</string>
-<string name="dialog">Author name:XU KANG #040846903
+    <string name="dialog">Author name:XU KANG #040846903
 Version # : 4
 Description: The goal of this task is
  to create the OC transpo mobile app
 When you click into the Stops Button, then it will display an listview of stops.
 When you click into the Route Button,it will display the listview of various Routes</string>
-
 </resources>

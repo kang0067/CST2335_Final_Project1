@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.wn.cst2335_final_project.MainActivity">
 
     <TextView
@@ -26,7 +27,7 @@
         android:text="Patient Intake Form - Laren Preston" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/stopsmsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView2"
@@ -38,8 +39,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/stopsmsg"
+        android:layout_below="@+id/stopsmsg"
         android:layout_marginTop="20dp"
         android:text="OCTranspo Bus Route - Xu Kang" />
 
